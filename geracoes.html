@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    anoAtual = 2022;
+    anoDescoberta = 1500;
+    mediaFilhos = 28;
+
+    geracoes = (anoAtual - anoDescoberta) / mediaFilhos;
+
+    mostra("Passamos em torno de " + Math.round(geracoes) + " gerações até hoje.")
+
+
+</script>
